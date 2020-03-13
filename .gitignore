@@ -1,0 +1,16 @@
+# ignore all files end with .csv
+*.csv
+# 但 lib.a 除外
+#!all_data.csv
+# 仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO
+#/TODO
+# 忽略 matched/ 目录下的所有文件
+matched/
+MatchedTripsAndSpat/
+Processed_data/
+Trips/
+data/
+# 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
+#doc/*.txt
+# ignore all .txt files in the doc/ directory
+#doc/**/*.txt 
