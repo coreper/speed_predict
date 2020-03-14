@@ -15,10 +15,10 @@ class config(object):
 
     ref_time = 3
     pred_time = 3
-    hidden_size = 128
+    hidden_size = 96
     teacher_forcing_ratio = 0.5
     rnn_layers = 2
-    lr = 0.000001
+    lr = 0.00001
     x_dim = 8
     points = 10 # points should smaller than 10*pred_time
     max_len = max(ref_time, pred_time) * 10

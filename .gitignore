@@ -10,6 +10,7 @@ MatchedTripsAndSpat/
 Processed_data/
 Trips/
 data/
+weights/
 # 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 #doc/*.txt
 # ignore all .txt files in the doc/ directory
